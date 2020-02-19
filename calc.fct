@@ -1,0 +1,8 @@
+main DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"calc.c" LINE:27
+_Main DSTACK_USAGE:2 DSTACK_LEVEL:2 FILE:"calc.c" LINE:39
+Mohandes DSTACK_USAGE:0 DSTACK_LEVEL:2 FILE:"calc.c" LINE:112
+tan DSTACK_USAGE:8 DSTACK_LEVEL:10 FILE:"C:\cvavreval\lib\math.lib" LINE:782
+cos DSTACK_USAGE:4 DSTACK_LEVEL:14 FILE:"C:\cvavreval\lib\math.lib" LINE:777
+sin DSTACK_USAGE:9 DSTACK_LEVEL:23 FILE:"C:\cvavreval\lib\math.lib" LINE:764
+floor DSTACK_USAGE:4 DSTACK_LEVEL:27 FILE:"C:\cvavreval\lib\math.lib" LINE:667
+ftrunc DSTACK_USAGE:4 DSTACK_LEVEL:31 FILE:"C:\cvavreval\lib\math.lib" LINE:550

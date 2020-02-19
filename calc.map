@@ -1,0 +1,62 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+a                                                                                 0x0160       4
+b                                                                                 0x0164       4
+c                                                                                 0x0168       4
+q                                                                                 0x016C       4
+t                                                                                 0x0170       4
+lcd                                                                               0x0174      25
+_base_y (lcd.lib)                                                                 0x018D       4
+_seed (stdlib.lib)                                                                0x0191       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+i                                                                                 R4,R5        2
+y                                                                                 R7           1
+z                                                                                 R6           1
+_lcd_x                                                                            R9           1
+_lcd_y                                                                            R8           1
+_lcd_maxx                                                                         R11          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x00083     11
+_Main                                                                             0x0008E    139
+Emoji                                                                             0x00132     39
+Mohandes                                                                          0x00159     92
+Alamat                                                                            0x001B5    106
+key                                                                               0x0021F    159
+_lcd_delay_G100                                                                   0x002BE      4
+_lcd_ready                                                                        0x002C2     17
+_lcd_write_nibble_G100                                                            0x002D3      8
+_lcd_write_data                                                                   0x002DB     15
+_lcd_read_nibble_G100                                                             0x002EA      7
+lcd_read_byte0_G100                                                               0x002F1      8
+lcd_gotoxy                                                                        0x002F9     14
+lcd_clear                                                                         0x00307     13
+lcd_putchar                                                                       0x00314     25
+lcd_puts                                                                          0x0032D     15
+lcd_putsf                                                                         0x0033C     19
+_long_delay_G100                                                                  0x0034F      5
+_lcd_init_write_G100                                                              0x00354     11
+lcd_init                                                                          0x0035F     50
+itoa                                                                              0x00391     46
+ftoa                                                                              0x003BF    140
+ftrunc                                                                            0x0044B     48
+floor                                                                             0x0047B     10
+log                                                                               0x00485    101
+sin                                                                               0x004EA     84
+cos                                                                               0x0053E     10
+tan                                                                               0x00548     20
+xatan                                                                             0x0055C     36
+yatan                                                                             0x00580     44
+asin                                                                              0x005AC     61
+acos                                                                              0x005E9     22
+strcpyf                                                                           0x005FF     13
